@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "squidtweaks",
+  "version": "${version}",
+  "name": "SquidTweaks",
+  "description": "Optimized Tweak mod by squidtempura",
+  "authors": ["squidtempura"],
+  "contact": {
+    "repo": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/squidtweaks/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.squidtempura.www.squidtweaks.SquidTweaks"
+    ]
+  },
+  "mixins": [
+    "squidtweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "malilib": "0.16.3"
+  }
+}
